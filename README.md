@@ -99,6 +99,16 @@ See `docs/cli-commands.md` for a full breakdown of every command used and what i
 
 ---
 
+## 🧰 Scripts
+
+| Script | Description |
+|--------|-------------|
+| `scripts/create-bucket.sh` | Creates a uniquely named S3 bucket using timestamp |
+| `scripts/upload-file.sh <bucket-name>` | Uploads `testfile.txt` to specified S3 bucket |
+| `scripts/list-buckets.sh` | Lists all accessible S3 buckets |
+
+---
+
 ## 🔐 IAM & Security Notes
 
 - CLI access was done using a dedicated IAM user
